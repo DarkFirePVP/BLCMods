@@ -1,0 +1,62 @@
+set GD_Gladiolus_Weapons.AssaultRifle.AR_Barrel_Torgue_Dahl_Bearcat WeaponAttributeEffects
+(
+    (
+        AttributeToModify = AttributeDefinition'D_Attributes.Weapon.WeaponClipSize',
+        ModifierType = MT_PreAdd,
+        BaseModifierValue =
+        (
+            BaseValueConstant = 15.000000,
+            BaseValueAttribute = None,
+            InitializationDefinition = None,
+            BaseValueScaleConstant = 1.000000
+        )
+    ),
+    (
+        AttributeToModify = AttributeDefinition'D_Attributes.Weapon.WeaponShotCost',
+        ModifierType = MT_PreAdd,
+        BaseModifierValue =
+        (
+            BaseValueConstant = 1.000000,
+            BaseValueAttribute = None,
+            InitializationDefinition = None,
+            BaseValueScaleConstant = 1.000000
+        )
+    ),
+    (
+        AttributeToModify = AttributeDefinition'D_Attributes.Weapon.WeaponProjectilesPerShot',
+        ModifierType = MT_PreAdd,
+        BaseModifierValue =
+        (
+            BaseValueConstant = 5.000000,
+            BaseValueAttribute = None,
+            InitializationDefinition = None,
+            BaseValueScaleConstant = 1.000000
+        )
+    ),
+    (
+        AttributeToModify = AttributeDefinition'D_Attributes.Weapon.WeaponDamage',
+        ModifierType = MT_Scale,
+        BaseModifierValue =
+        (
+            BaseValueConstant = 1.600000,
+            BaseValueAttribute = None,
+            InitializationDefinition = None,
+            BaseValueScaleConstant = 1.000000
+        )
+    ),
+    (
+        AttributeToModify = AttributeDefinition'D_Attributes.Weapon.WeaponFireInterval',
+        ModifierType = MT_Scale,
+        BaseModifierValue =
+        (
+            BaseValueConstant = -10,
+            BaseValueAttribute = None,
+            InitializationDefinition = None,
+            BaseValueScaleConstant = 1.000000
+        )
+    )
+)
+
+
+set GD_Gladiolus_Weapons.Name.Title.Title_Pearlescent_Bearcat:AttributePresentationDefinition_8 NoConstraintText Crank me up to ten!
+set GD_Gladiolus_Weapons.Name.Title.Title_Pearlescent_Bearcat PartName Dahl LMG
